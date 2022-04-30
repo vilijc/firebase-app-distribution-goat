@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463898361333",
+    "project_id": "fir-app-distribution-goat",
+    "storage_bucket": "fir-app-distribution-goat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463898361333:android:e6556fbc89ab3db985b4bc",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app_distribution_goat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463898361333-2s7m3vffq5g54os17hf0jgnjp5ocnj3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMuUXIEaO046dLja6JGV_FtGkryZtp9eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463898361333-2s7m3vffq5g54os17hf0jgnjp5ocnj3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
