@@ -21,9 +21,6 @@ jobs:
           fileName: "app_keystore.jks"
           encodedString: ${{ secrets.KEYSTORE }}
 
-      - name: Clean
-        run: flutter clean
-
       - name: Build
         run: flutter build apk
         env:
