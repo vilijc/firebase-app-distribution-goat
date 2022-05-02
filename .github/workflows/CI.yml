@@ -13,6 +13,12 @@ jobs:
         run: flutter packages get
       - name: Install Dependencies
         run: flutter packages get
+      - name: Decode Keystore
+        id: write_file
+        uses: timheuer/base64-to-file@v1
+        with:
+          fileName: "app_keystore.jks"
+          encodedString: ${{ secrets.KEYSTORE }}
       - name: Build
         run: flutter build apk
         env:
